@@ -1,0 +1,32 @@
+#highScoresTable {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+}
+
+#highScoresTable thead {
+  background-color: #1aa4ca80;
+  color: white;
+}
+
+#highScoresTable th, 
+#highScoresTable td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.high-score {
+  font-size: 1.6rem;
+  transition: transform 0.2s ease;
+}
+
+.high-score:hover {
+  transform: scale(1.025);
+  background-color: rgba(22, 235, 238, 0.05);
+}
+
+#highScoresTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
