@@ -20,7 +20,7 @@ let availableQuestions = [];
 let questions = [];
 
 // Timer variables
-const QUIZ_DURATION = 120; // 2 minutes = 120 seconds
+const QUIZ_DURATION = 300; // 2 minutes = 120 seconds
 let timeRemaining = QUIZ_DURATION;
 let timerInterval;
 
